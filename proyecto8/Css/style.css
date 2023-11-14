@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', sans-serif;
+
+}
+
+body {
+    background-image: url("/img/papaNoel___2065537093af629___.png");
+    background-repeat: no-repeat;
+    background-color: rgb(83, 200, 220);
+    background-position-x: 87vh;
+    background-size: contain;
+    min-height: 100vh;
+    display: flex;
+
+}
+
+body.on {
+    background-image: url("/img/papaNoel___4865537094d2080___.gif");
+}
+
+.box {
+    margin: 200px 200px 200px 350px;
+}
+
+.box-1 {
+    border-radius: .7rem;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.botones {
+    padding: 100px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+}
+
+.box-1 a {
+    font-size: 30px;
+    padding: 20px 30px;
+    border-radius: 15vh;
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: red;
+    transition: 0.5S;
+}
+
+.box-1 .on a {
+    background-color: red;
+    color: antiquewhite;
+}
+
+.box-1 .on a:hover {
+    background-color: rgb(204, 62, 62);
+    font-size: 35px;
+}
+
+.box-1 h1 {
+    color: red;
+    font-size: 60px;
+    padding: 50px;
+}
+
+#cuentaRegresiva {
+    display: flex;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contador-js {
+    display: flex;
+}
+
+
+.contado H2 {
+    margin-right: 10px;
+    font-size: 60px;
+    padding: 30px 80px;
+    box-shadow: inset 0 2px 10px rgb(255, 255, 255);
+    border-radius: 12vh;
+}
